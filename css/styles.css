@@ -79,6 +79,11 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.link-active {
+  position: relative;
+  color: var(--color-ocean);
+}
+
 .link-active::after {
   content: "";
   width: 100%;
@@ -87,6 +92,9 @@ img {
   background: var(--OCEAN, #404bbf);
   display: block;
   margin-top: 20px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
 }
 
 .nav-menu-link:hover,
