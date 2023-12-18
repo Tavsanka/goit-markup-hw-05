@@ -433,6 +433,9 @@ body {
 .list-style-portfolio:hover .overlay-text {
   transform: translateY(0%);
 }
+.list-style-portfolio:focus .overlay-text {
+  transform: translateY(0%);
+}
 
 .link-decoration:hover,
 .link-decoration:focus {
