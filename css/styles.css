@@ -627,7 +627,6 @@ body {
 .close-button:focus {
   background-color: var(--color-ocean);
   border: none;
-  fill: #ffffff;
 }
 
 .icon-modal {
