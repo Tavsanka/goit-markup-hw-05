@@ -94,7 +94,7 @@ img {
   margin-top: 20px;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -2px;
 }
 
 .nav-menu-link:hover,
@@ -115,6 +115,11 @@ img {
   padding-bottom: 24px;
   display: flex;
   text-decoration: none;
+}
+
+.web-hover:hover,
+.web-hover:focus {
+  color: var(--color-ocean);
 }
 
 .studio-highlight {
